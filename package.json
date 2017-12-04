@@ -2,6 +2,7 @@
   "name": "@smartive/tslint-config",
   "version": "0.1.0",
   "description": "TSLint Configuration by smartive",
+  "main": "tslint.json",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/smartive/tslint-config.git"
