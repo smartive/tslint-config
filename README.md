@@ -34,7 +34,7 @@ npm install --save-dev @smartive/tslint-config
 
 To activate the rules, add the following `extends` declaration to your TSLint configuration (e.g. `tslint.json`):
 
-```javascript
+```json
 {
    "extends": "@smartive/tslint-config",
    "rules": {
