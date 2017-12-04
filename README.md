@@ -1,4 +1,4 @@
-# smartive TSLint Config
+# TSLint Config provided by smartive
 
 ## Purpose
 
@@ -6,7 +6,7 @@ The rules in this package can be used to enforce consistent code style.
 
 ## Usage
 
-Install from npm to your devDependencies  (https://www.npmjs.com/package/@smartive/tslint-config)
+Install from npm to your devDependencies.
 
 ```sh
 npm install --save-dev @smartive/tslint-config
@@ -24,3 +24,6 @@ This package provides an empty configuration preset that just contains the `rule
    }
 }
 ```
+
+## Release notes
+The release notes can be found in the [release section](https://github.com/smartive/tslint-config/releases).
