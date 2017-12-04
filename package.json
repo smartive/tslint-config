@@ -1,6 +1,6 @@
 {
   "name": "@smartive/tslint-config",
-  "version": "0.1.0-dev",
+  "version": "0.1.0",
   "description": "TSLint Configuration by smartive",
   "repository": {
     "type": "git",
