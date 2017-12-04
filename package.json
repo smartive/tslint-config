@@ -1,0 +1,21 @@
+{
+  "name": "@smartive/tslint-config",
+  "version": "0.1.0-dev",
+  "description": "TSLint Configuration by smartive",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/smartive/tslint-config.git"
+  },
+  "keywords": [
+    "tslint"
+  ],
+  "author": "smartive AG <hello@smartive.ch>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/smartive/tslint-config/issues"
+  },
+  "homepage": "https://github.com/smartive/tslint-config#readme",
+  "dependencies": {
+    "tslint-config-airbnb": "^5.4.2"
+  }
+}
