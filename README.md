@@ -1,4 +1,4 @@
-# TSLint Config provided by smartive
+# TSLint configuration provided by smartive
 
 The rules in this package are based on [TSLint Config Airbnb](https://github.com/progre/tslint-config-airbnb) (also see [Airbnb JavaScript Style Guide](https://github.com/airbnb/javascript)) and modified to fit our company's coding guidelines.
 
@@ -32,15 +32,13 @@ Install using NPM:
 npm install --save-dev @smartive/tslint-config
 ```
 
-Configure tslint to use `@smartive/tslint-config`:
-
-This package provides an empty configuration preset that just contains the `rulesDirectory`. That means you can easily use the rules in this package, but don't get any predefined configuration. To use it, just add it to the `extends` array in your `tslint.json`:
+To activate the rules, add the following `extends` declaration to your TSLint configuration (e.g. `tslint.json`):
 
 ```javascript
 {
-   "extends": ["@smartive/tslint-config"]
+   "extends": "@smartive/tslint-config",
    "rules": {
-     ...
+     ... // additional custom rules
    }
 }
 ```
