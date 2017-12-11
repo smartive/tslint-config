@@ -1,0 +1,15 @@
+{
+  "extends": ["tslint-react", "./tslint.json"],
+  "rules": {
+    "variable-name": [
+      true,
+      "check-format",
+      "ban-keywords",
+      "allow-leading-underscore",
+      "allow-pascal-case"
+    ],
+    "jsx-boolean-value": ["never"],
+    "jsx-no-multiline-js": false,
+    "import-name": false
+  }
+}
