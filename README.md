@@ -85,7 +85,7 @@ Components like `const ButtonWithSpinner = withSpinner(Button);`.
 The developer should be allowed to declare boolean props in appropriate ways. Values should be skipped if reasonable (`<Button primary />`). Also the ability to calculate values dynamically (`<Button active={isActive} />` which might result in `active={true}`) should
 be possible.
 
-### Allow Multiline JSX
+### Allow Multiline JSX
 
 Multiline JSX expressions are allowed for things like map calls. `jsx-no-multiline-js` is too intrusive and we trust other tools,
 like Code Reviews, to prevent an increase in unreadable code.
