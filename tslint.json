@@ -11,6 +11,7 @@
         "order": "fields-first"
       }
     ],
+    "ordered-imports": true,
     "no-increment-decrement": false,
     "typedef": [
       true,
@@ -24,6 +25,8 @@
       "check-format",
       "ban-keywords",
       "allow-leading-underscore"
-    ]
+    ],
+    "no-boolean-literal-compare": false,
+    "strict-boolean-expressions": false
   }
 }
