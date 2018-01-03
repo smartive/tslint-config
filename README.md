@@ -18,7 +18,7 @@ Requires that import statements be alphabetized and grouped.
 
 ### Enable increment / decrement statements (`no-increment-decrement`)
 
-Re-enabled incremenent (`++`) and decrements (`--`) operations to get rid of unwanted and unreadalbe workarounds.
+Re-enabled incremenent (`++`) and decrements (`--`) operations to get rid of unwanted and unreadeable workarounds.
 
 ### Check return type of functions (`typedef`)
 
