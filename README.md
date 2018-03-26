@@ -36,10 +36,17 @@ developers, but can become relevant if `x` can be `true | false | null`.
 *This rule only works if [Type Information / Checking is available](https://palantir.github.io/tslint/rules/no-boolean-literal-compare/).*
 
 ### No Strict Boolean Expressions
+
 With `strict-boolean-expressions` only boolean values can be used with `!`, `&&`, `||`, ternary operators, if conditions and loops.
 JavaScript allows quite a few neat shorthand expressions with non-boolean value, which we don't want to prohibit.
 
 *This rule only works if [Type Information / Checking is available](https://palantir.github.io/tslint/rules/no-boolean-literal-compare/).*
+
+### Member Access
+
+Force the user to add `public`, `protected` and `private` information to the
+members of a class. This leads to better readability (despite the default
+of `public`).
 
 ## Usage
 
@@ -94,6 +101,17 @@ like Code Reviews, to prevent an increase in unreadable code.
 
 Sometimes filenames are not very meaningful and developers should be allowed to change default import statements, as they have the
 same possibility with aliases for named imports (`import { Foo as Bar } from 'foo';`).
+
+### JSX No Lambda
+
+Since there are very little performance impacts on lambda expressions in jsx,
+we decided to allow lambdas in jsx props.
+
+### Function Name
+
+If you use default exports, you can name your exported function with a capital
+letter. This leads to a better understanding of several IDE tools.
+`export default function Link() ...`
 
 ## Release notes
 The release notes can be found in the [release section](https://github.com/smartive/tslint-config/releases).
