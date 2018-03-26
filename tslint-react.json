@@ -10,6 +10,17 @@
     ],
     "jsx-boolean-value": ["never"],
     "jsx-no-multiline-js": false,
-    "import-name": false
+    "jsx-no-lambda": false,
+    "import-name": false,
+    "function-name": [
+      true,
+      {
+        "function-regex": "/^([a-z$]|[A-Z$][a-z\\d])[\\w\\d]+$/",
+        "method-regex": "/^[a-z$][\\w\\d]+$/",
+        "private-method-regex": "/^[a-z$][\\w\\d]+$/",
+        "protected-method-regex": "/^[a-z$][\\w\\d]+$/",
+        "static-method-regex": "/^[a-z$][\\w\\d]+$/"
+      }
+    ]
   }
 }
