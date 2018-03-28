@@ -1,10 +1,7 @@
 {
   "extends": "tslint-config-airbnb",
   "rules": {
-    "max-line-length": [
-      true,
-      125
-    ],
+    "max-line-length": [true, 125],
     "member-ordering": [
       true,
       {
@@ -13,19 +10,8 @@
     ],
     "ordered-imports": true,
     "no-increment-decrement": false,
-    "typedef": [
-      true,
-      "call-signature",
-      "parameter",
-      "property-declaration",
-      "member-variable-declaration"
-    ],
-    "variable-name": [
-      true,
-      "check-format",
-      "ban-keywords",
-      "allow-leading-underscore"
-    ],
+    "typedef": [true, "call-signature", "parameter", "property-declaration", "member-variable-declaration"],
+    "variable-name": [true, "check-format", "ban-keywords", "allow-leading-underscore"],
     "no-boolean-literal-compare": false,
     "strict-boolean-expressions": false,
     "member-access": true

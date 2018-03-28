@@ -1,13 +1,7 @@
 {
   "extends": ["tslint-react", "./tslint.json"],
   "rules": {
-    "variable-name": [
-      true,
-      "check-format",
-      "ban-keywords",
-      "allow-leading-underscore",
-      "allow-pascal-case"
-    ],
+    "variable-name": [true, "check-format", "ban-keywords", "allow-leading-underscore", "allow-pascal-case"],
     "jsx-boolean-value": ["never"],
     "jsx-no-multiline-js": false,
     "jsx-no-lambda": false,
@@ -15,11 +9,11 @@
     "function-name": [
       true,
       {
-        "function-regex": "/^([a-z$]|[A-Z$][a-z\\d])[\\w\\d]+$/",
-        "method-regex": "/^[a-z$][\\w\\d]+$/",
-        "private-method-regex": "/^[a-z$][\\w\\d]+$/",
-        "protected-method-regex": "/^[a-z$][\\w\\d]+$/",
-        "static-method-regex": "/^[a-z$][\\w\\d]+$/"
+        "function-regex": "^[a-zA-Z$][\\w\\d]+$",
+        "method-regex": "^[a-z$][\\w\\d]+$",
+        "private-method-regex": "^[a-z$][\\w\\d]+$",
+        "protected-method-regex": "^[a-z$][\\w\\d]+$",
+        "static-method-regex": "^[a-z$][\\w\\d]+$"
       }
     ]
   }
