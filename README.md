@@ -48,6 +48,25 @@ Force the user to add `public`, `protected` and `private` information to the
 members of a class. This leads to better readability (despite the default
 of `public`).
 
+### Trailing Comma
+
+Actually, the rule is set to the default value of `multiline: always` and `singleline: never`. But the additional
+field is set to prevent trailing commas after rest parameters (`esSpecCompliant`):
+
+```typescript
+function withComma(
+  p1: string,
+  p2: string,
+) {}
+
+function withoutComma(
+  p1: string,
+  ...rest: string[]
+) {}
+```
+
+The comma after a rest parameter will get a typescript compiler warning.
+
 ## Usage
 
 Install using NPM:
