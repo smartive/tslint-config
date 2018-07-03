@@ -17,12 +17,12 @@
   },
   "homepage": "https://github.com/smartive/tslint-config#readme",
   "dependencies": {
-    "tslint-config-airbnb": "~5.7.0",
-    "tslint-react": "^3.2.0"
+    "tslint-config-airbnb": "~5.9.2",
+    "tslint-react": "^3.6.0"
   },
   "devDependencies": {
     "cz-conventional-changelog": "^2.1.0",
-    "semantic-release": "^11.0.1"
+    "semantic-release": "^15.6.0"
   },
   "scripts": {
     "semantic-release": "semantic-release"
