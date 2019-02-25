@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/smartive/tslint-config#readme",
   "dependencies": {
-    "tslint-config-airbnb": "~5.9.2",
+    "tslint-config-airbnb": "~5.11.1",
     "tslint-react": "^3.6.0"
   },
   "devDependencies": {
