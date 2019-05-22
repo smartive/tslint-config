@@ -39,6 +39,7 @@
         "singleline": "never",
         "esSpecCompliant": true
       }
-    ]
+    ],
+    "no-floating-promises"
   }
 }
