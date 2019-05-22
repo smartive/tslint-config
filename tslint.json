@@ -40,6 +40,6 @@
         "esSpecCompliant": true
       }
     ],
-    "no-floating-promises"
+    "no-floating-promises": true
   }
 }
